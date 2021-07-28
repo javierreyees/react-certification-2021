@@ -11,4 +11,4 @@ function Private({ children, ...rest }) {
   );
 }
 
-export default Private;
+export { Private };

@@ -1,1 +1,1 @@
-export { default } from './Secret.page';
+export { Secret } from './Secret.page';

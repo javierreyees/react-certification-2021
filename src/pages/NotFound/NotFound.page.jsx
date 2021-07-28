@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './NotFound.styles.css';
 
-function NotFoundPage() {
+function NotFound() {
   return (
     <section className="not-found">
       <Link to="/" className="home-link">
@@ -14,4 +14,4 @@ function NotFoundPage() {
   );
 }
 
-export default NotFoundPage;
+export { NotFound };
